@@ -4,7 +4,7 @@
 		"Wikia, Inc (Adam Karmiński)",
 		"Alexandr Efremov"
 	],
-	"url": "",
+	"url": "https://github.com/AlexandrEfremov/mediawiki-InfoboxBuilder",
 	"descriptionmsg": "infoboxbuilder-desc",
 	"version": "0.3",
 	"type": "parserhook",
