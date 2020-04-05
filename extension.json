@@ -1,0 +1,44 @@
+{
+	"name": "InfoboxBuilder",
+	"author": [
+		"Wikia, Inc (Adam Karmiński)",
+		"Alexandr Efremov"
+	],
+	"url": "",
+	"descriptionmsg": "infoboxbuilder-desc",
+	"version": "0.3",
+	"type": "parserhook",
+	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
+	"MessagesDirs": {
+		"InfoboxBuilder": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"InfoboxBuilderMagic": "InfoboxBuilder.i18n.magic.php"
+	},	
+	"ResourceModules": {
+		"ext.InfoboxBuilder.styles": {
+			"styles": [
+				"resources/InfoboxBuilder.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "InfoboxBuilder"
+	},
+	"AutoloadClasses": {
+		"LuaLibrary": "includes/LuaLibrary.php",
+		"InfoboxBuilderHooks": "InfoboxBuilder.hooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "InfoboxBuilderHooks::setupParserHook",
+		"ScribuntoExternalLibraries": "InfoboxBuilderHooks::registerScribuntoLibraries",
+		"EditPageLayoutExecute": "InfoboxBuilderHooks::addInfoboxBuilderStyles"
+	},
+	"manifest_version": 1
+}
