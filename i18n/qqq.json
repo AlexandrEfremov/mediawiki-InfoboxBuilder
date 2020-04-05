@@ -1,0 +1,6 @@
+{
+	"infoboxbuilder-desc": "{{desc}}",
+	"infoboxbuilder-errors-header": "Title of a box with InfoboxBuilder messages.",
+	"infoboxbuilder-errors-desc": "User-friendly description of a message box.",
+	"infoboxbuilder-errors-no-module": "Message shown when a module included by user does not exist.",
+}
