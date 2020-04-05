@@ -11,5 +11,7 @@ and add the following code at the bottom of [LocalSettings.php](https://www.medi
 ```php
 wfLoadExtension( 'InfoboxBuilder' );
 ```
+## Requires extensions
+Scribunto: https://www.mediawiki.org/wiki/Extension:Scribunto
 ## Usage
 See: https://dev.fandom.com/wiki/Lua_templating/InfoboxBuilder
