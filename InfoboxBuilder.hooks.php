@@ -89,7 +89,7 @@ final class InfoboxBuilderHooks {
 		}
 	}
 	/**
-	 * Function that adds SCSS to output.
+	 * Function that adds LESS to output.
 	 * @param  EditPageLayoutController $controller
 	 * @return true (to proceed with hooks loading)
 	 */
