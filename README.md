@@ -1,5 +1,5 @@
 # mediawiki-InfoboxBuilder
- Port of Fandom's https://github.com/Wikia/app/tree/dev/extensions/wikia/InfoboxBuilder extension to the MediaWiki 1.27+
+ Port of Fandom's https://github.com/Wikia/app/tree/dev/extensions/wikia/InfoboxBuilder extension to the MediaWiki 1.29+
 
 ## Installation
 Grab the latest release from <a href="https://github.com/AlexandrEfremov/mediawiki-InfoboxBuilder/releases/latest">GitHub</a> and unpack it into <code>extensions\InfoboxBuilder</code> directory in your MediaWiki installation or clone this repository, by using these commands:
